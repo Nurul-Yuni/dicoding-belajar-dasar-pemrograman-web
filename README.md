@@ -44,7 +44,7 @@ dicoding-belajar-dasar-pemrograman-web/
 ## 🚀 Cara Menjalankan
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/nurulyuniadillah/dicoding-belajar-dasar-pemrograman-web.git
+   git clone https://github.com/Nurul-Yuni/dicoding-belajar-dasar-pemrograman-web.git
    ```
 2. Buka folder proyek di editor (misal: VS Code).
 3. Jalankan `index.html` di browser.
@@ -55,12 +55,10 @@ dicoding-belajar-dasar-pemrograman-web/
 1. Buka **Settings > Pages** di repository GitHub kamu.
 2. Pilih branch `main` dan folder `/ (root)`.
 3. Klik **Save**, lalu akses:
-   `https://nurulyuniadillah.github.io/dicoding-belajar-dasar-pemrograman-web/`
+   `https://Nurul-Yuni.github.io/dicoding-belajar-dasar-pemrograman-web/`
 
 ---
 
 ## ✨ Author
 **Nurul Yuni Adillah**  
-📍 Surabaya, Indonesia  
-🔗 [LinkedIn](https://www.linkedin.com/in/nurul-yuni-adillah/)  
-📧 nurulyuniadillah@gmail.com
+📍 Surabaya, Indonesia
