@@ -1,0 +1,14 @@
+Fitur yang Diterapkan dalam JavaScript & Cara Mengaksesnya
+
+1. Smooth Scrolling untuk Navigasi
+- Deskripsi: Fitur ini memungkinkan efek scroll halus saat mengklik tautan navigasi (misalnya "Tentang", "Proyek", "Blog", "Kontak"). Alih-alih berpindah secara instan, halaman akan bergulir
+  dengan efek yang lebih halus ke bagian yang dituju.
+- Cara Mengakses: Klik salah satu tautan navigasi di bagian header (<nav>) untuk melihat efek scroll halus saat berpindah ke bagian terkait.
+
+2. Validasi Formulir Kontak
+- Deskripsi: Fitur ini memastikan bahwa semua kolom dalam formulir kontak (Nama, Email, dan Pesan) telah diisi sebelum dikirim. Jika ada kolom yang kosong, pengguna akan diberi peringatan. 
+  Jika semua kolom telah terisi dengan benar, maka pesan sukses akan muncul, dan formulir akan dikosongkan kembali.
+- Cara Mengakses:
+	1. Gulir ke bawah hingga bagian "Kontak".
+	2. Coba kirim formulir tanpa mengisi kolom apa pun → Akan muncul peringatan.
+	3. Isi semua kolom dengan data yang valid, lalu kirim formulir → Akan muncul pesan sukses, dan formulir akan dikosongkan kembali secara otomatis.

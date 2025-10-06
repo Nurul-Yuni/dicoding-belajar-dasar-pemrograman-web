@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Portofolio Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Nurul Yuni Adillah</h2>
+                <p>Web Developer | Passionate about Technology</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>Tentang Saya</h2>
+            <p>Saya seorang Web Developer yang memiliki minat di bidang teknologi dan pemrograman. Berpengalaman dalam pengembangan website modern dan responsif.</p>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Proyek Saya</h2>
+            <article class="project-card">
+                <h3>Judul Proyek</h3>
+                <p>Deskripsi singkat tentang proyek yang telah dikerjakan, mencakup teknologi yang digunakan dan tujuan proyek.</p>
+            </article>
+        </section>
+
+        <section id="blog" class="content-section">
+            <h2>Blog Teknologi</h2>
+            <article class="blog-card">
+                <h3>Judul Artikel</h3>
+                <p>Artikel menarik seputar teknologi dan pemrograman yang dapat meningkatkan wawasan pembaca.</p>
+            </article>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Kontak</h2>
+            <p>Jika Anda ingin menghubungi saya, silakan isi formulir di bawah ini:</p>
+            <form action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <!-- Elemen aside untuk foto -->
+        <aside>
+            <h2>Profil Saya</h2>
+            <img src="./img/foto-profil.jpg" alt="Foto Nurul Yuni Adillah" class="profile-img">
+            <p>Web Developer dengan minat di teknologi dan pengembangan website.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nurul Yuni Adillah</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
